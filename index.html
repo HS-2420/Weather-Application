@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="shortcut icon" href="./img/dayrain.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-app">
+    <div class="container">
+      <h1 class="brand"><i>Check Weather </i><img src="img/wind.png" alt=""></h1>
+      <div id="infoAll">
+        <h1 class="temp">16&#176;</h1>
+        <div class="city-time">
+          <div class="countryMsg">United Kingdom</div>
+          <h1 class="name">London</h1>
+            <span class="time-date">06:09-Mon Sep 19</span>
+        </div>
+        <div class="weather">
+          <img src="./img/moon.png" alt="icon" class="icon" width="50" height="50">
+          <span class="conditionMsg">Cloudy</span>
+        </div>
+      </div>
+    </div>
+    <div class="panel">
+      <form class="locationInput">
+        <input type="text" class="search" placeholder="Search Location">
+        <button type="submit" class="submit">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+      <ul class="details">
+        <h3>Weather Details</h3>
+        <li>
+          <span>Cloudy</span>
+          <span class="cloudMsg">89%</span>
+        </li>
+        <li>
+          <span>Humidity</span>
+          <span class="humidityMsg">64%</span>
+        </li>
+        <li>
+          <span>Wind Speed</span>
+          <span class="windMsg">8km/h</span>
+        </li>
+        <li>
+          <span>Wind Degree</span>
+          <span class="windDegMsg">70&#176;</span>
+        </li>
+        <li>
+          <span>Feels Like Temprature</span>
+          <span class="feelMsg">15.6&#176;</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
