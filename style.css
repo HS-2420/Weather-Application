@@ -163,6 +163,7 @@ city-time h1{
         border-radius: 10px;
         font-size: 1rem;
         letter-spacing: 0px;
+        -webkit-text-stroke: 0px black;
     }
     .brand img{
         height: 20px;
@@ -185,23 +186,28 @@ city-time h1{
     .temp,
     .weather{
         margin: 0.5 0;
+        -webkit-text-stroke: 0px black;
     }
     city-time h1{
         margin: 0;
         margin-bottom: 0em;
         font-size: 1em;
+        -webkit-text-stroke: 0px black;
     }
     .countryMsg{
         font-size: 0.7em;
         margin-left: 0%;
+        -webkit-text-stroke: 0px black;
     }
     .name{
         font-size:1.5em;
         margin-bottom:0em;
+        -webkit-text-stroke: 0px black;
     }
     .temp{
         font-size: 3em;
         margin: 0;
+        -webkit-text-stroke: 0px black;
     }
     .time-date{
         font-size: 0.7em;
